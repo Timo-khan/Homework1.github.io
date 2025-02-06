@@ -43,7 +43,7 @@ body, html {
     width: 250px;
     z-index: 999;
     background-color: rgba(8, 25, 3, 0.612);
-    box-shadow: 1px 1px 2px black, 0 0 25px rgb(98, 98, 220), 0 0 5px rgb(151, 151, 199);
+    box-shadow: rgba(220, 220, 220, 0.908) 5px 1px 15px;
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -231,10 +231,10 @@ body, html {
             object-fit: cover;
             border-radius: 50px;
             box-shadow: rgba(220, 220, 220, 0.896) 5px 1px 15px;
-
         }
 
         .text {
+            color: aquamarine;
             display: flex;
             flex-direction: column;
             align-items: center;
